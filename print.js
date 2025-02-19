@@ -92,13 +92,13 @@ $(document).ready(function() {
         let guruPiket = $('#guruPiket').val();
 
         let printContent = `
-          <div style="display: flex; align-items: center; justify-content: space-between;">
+<div style="display: flex; align-items: center; justify-content: space-between;">
     <img src="image/tutwuri.png" alt="Logo Sekolah" style="width: 150px; height: auto; margin-right: 20px;">
     <div style="text-align: center; margin-top: 2px; flex-grow: 1;">
         <h2 style="white-space: nowrap;">YAYASAN AMANATUSSOLIKHA</h2>
         <h2 style="white-space: nowrap;">SMK HASYIM ASYIM ASYARI BOJONG</h2>
-        <p style="white-space: nowrap;">PROGRAM STUDI: TEKNIK KOMPUTER DAN JARINGAN – AKUNTANSI DAN KEUANGAN LEMBAGA</p>
-        <p style="white-space: nowrap;">Kampus: Jl. Raya Babakan Tuwel, Kec. Bojong, Kab. Tegal, Jawa Tengah KP: 52465 Telp: (0283) 4690167
+        <p style="white-space: normal; margin: 0;">PROGRAM STUDI: TEKNIK KOMPUTER DAN JARINGAN – AKUNTANSI DAN KEUANGAN LEMBAGA</p>
+        <p style="white-space: normal; margin: 0;">Kampus: Jl. Raya Babakan Tuwel, Kec. Bojong, Kab. Tegal, Jawa Tengah KP: 52465 Telp: (0283) 4690167
         Email: infosmkhasyimasyaribojong@gmail.com - Website: www.smkhasyaribojong.sch.id</p>
         <hr style="border: 2px solid black; margin: 10px 0; max-width: 100%; width: calc(100% - 40px);">
     </div>
@@ -107,7 +107,7 @@ $(document).ready(function() {
 
 <hr>
 <h3 style="text-align: center;">Formulir Pendaftaran</h3>
-<table class="table table-bordered" style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+<table class="table table-bordered" style="width: 100%; border-collapse: collapse; margin: 20px auto; text-align: center;">
     <tr style="background-color: #4CAF50; color: white;">
         <th style="padding: 12px; border: 1px solid black; width: 30%;">Detail</th>
         <th style="padding: 12px; border: 1px solid black; width: 70%;">Informasi</th>
@@ -397,7 +397,8 @@ $(document).ready(function() {
             <td style="padding: 10px; border: 1px solid black;">No Rekening</td>
             <td style="padding: 10px; border: 1px solid black;">${noRekening}</td
 
-                <tr>
+        </tr>
+        <tr>
             <td style="padding: 10px; border: 1px solid black;">Jenis Prestasi</td>
             <td style="padding: 10px; border: 1px solid black;">${jenisPrestasi}</td>
         </tr>
@@ -425,10 +426,7 @@ $(document).ready(function() {
 
 
     <!-- Add more rows similarly -->
-    <tr>
-        <td style="padding: 10px; border: 1px solid black;">Ketua SPMB</td>
-        <td style="padding: 10px; border: 1px solid black;">H. Maslutfi,S.Pd.</td>
-    </tr>
+  
 </table>
 
 <div style="margin-top: 100px; display: flex; justify-content: space-between; align-items: flex-start;">
